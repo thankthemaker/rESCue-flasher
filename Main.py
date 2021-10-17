@@ -14,7 +14,7 @@ import images as images
 from serial import SerialException
 from serial.tools import list_ports
 
-__version__ = "1.0.0"
+__version__ = "5.0.1"
 __flash_help__ = '''
 <p>This setting is highly dependent on your device!<p>
 <p>

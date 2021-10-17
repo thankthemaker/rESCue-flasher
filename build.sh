@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # rm -fr build dist
-VERSION=1.0.0
+VERSION=5.01.
 NAME="rESCue-flasher"
 DIST_NAME="rESCue-flasher"
 
