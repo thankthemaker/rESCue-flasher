@@ -26,6 +26,6 @@ exe = EXE(pyz,
           console=False , icon='images/icon-256.icns')
 app = BUNDLE(exe,
              name='rESCue-flasher.app',
-             version='5.0.0',
+             version='1.0.0',
              icon='./images/icon-256.icns',
              bundle_identifier='com.frightanic.nodemcu-pyflasher')
