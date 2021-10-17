@@ -23,9 +23,11 @@ class AboutDlg(wx.Dialog):
     <img src="{0}/images/espressif-64.png" width="64" height="64" alt="Espressif, producers of ESP8266 et.al.">
     <img src="{0}/images/wxpython-64.png" width="64" height="43" alt="wxPython, cross-platform GUI framework">
 
-    <h1>NodeMCU PyFlasher</h1>
+    <h1>rESCue-flasher</h1>
 
     <p>Version {1}</p>
+
+    <p>This program is based on the NodeMCU-PyFlasher from Marcel St&ouml;r. All credits to him!</p>
 
     <p>Fork the <a style="color: #004CE5;" href="https://github.com/marcelstoer/nodemcu-pyflasher">project on
     GitHub</a> and help improve it for all!</p>
@@ -51,7 +53,7 @@ class AboutDlg(wx.Dialog):
 '''
 
     def __init__(self, parent):
-        wx.Dialog.__init__(self, parent, wx.ID_ANY, "About NodeMCU PyFlasher")
+        wx.Dialog.__init__(self, parent, wx.ID_ANY, "About rESCue-flasher")
         html = HtmlWindow(self, wx.ID_ANY, size=(420, -1))
         if "gtk2" in wx.PlatformInfo or "gtk3" in wx.PlatformInfo:
             html.SetStandardFonts()
